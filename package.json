@@ -1,21 +1,37 @@
 {
-  "name": "portf22",
+  "name": "hussein",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://husseinalaa15.github.io/hussein",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^12.1.2",
     "@testing-library/user-event": "^13.5.0",
+    "aos": "^2.3.4",
+    "boostrap": "^2.0.0",
+    "bootstrap": "^4.6.1",
     "react": "^17.0.2",
+    "react-bootstrap": "^2.0.4",
     "react-dom": "^17.0.2",
+    "react-hook-inview": "^4.3.11",
+    "react-icons": "^4.3.1",
+    "react-loading": "^2.0.3",
+    "react-router": "^6.2.1",
+    "react-router-dom": "^6.2.1",
     "react-scripts": "5.0.0",
+    "react-spring": "^9.4.1",
+    "react-use-gesture": "^9.1.3",
+    "sendemail": "^4.0.3",
+    "styled-components": "^5.3.3",
     "web-vitals": "^2.1.2"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -34,5 +50,19 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/husseinalaa15/hussein.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/husseinalaa15/hussein/issues"
   }
 }
