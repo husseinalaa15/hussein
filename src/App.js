@@ -54,13 +54,13 @@ function App() {
             {/* <div style={{left:cursorX+"px", top:cursorY+"px"}}  className="cursor" /> */}
 
       <Routes >
-        <Route path="/" exact  element ={<Work/>} />
-        <Route path="/Work"   element ={<Work/>} />
-        <Route path="/About"   element ={<About/>} />
-        <Route path="/Contact"  element ={<Contact/>} />
-        <Route path="/Section"  element ={<SS/>} />
-        <Route path="/Skills"  element ={<Skills/>} />
-        <Route path="/Services"  element ={<Services/>} />
+        <Route path="/hussein" exact  element ={<Work/>} />
+        <Route path="/hussein/Work"   element ={<Work/>} />
+        <Route path="/hussein/About"   element ={<About/>} />
+        <Route path="/hussein/Contact"  element ={<Contact/>} />
+        <Route path="/hussein/Section"  element ={<SS/>} />
+        <Route path="/hussein/Skills"  element ={<Skills/>} />
+        <Route path="/hussein/Services"  element ={<Services/>} />
 
       </Routes>
       
